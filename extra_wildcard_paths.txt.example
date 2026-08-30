@@ -1,0 +1,8 @@
+# Extra wildcard folders, one per line. Rename this file to extra_wildcard_paths.txt
+# and restart ComfyUI (or hit Refresh in the Wildcards panel).
+#
+# Either a bare path:
+# D:/AI/stable-diffusion-webui-forge/extensions/Akium-WildcardManager/wildcards
+#
+# Or a label and a path, so the panel shows a friendly name:
+# forge = D:/AI/stable-diffusion-webui-forge/extensions/Akium-WildcardManager/wildcards

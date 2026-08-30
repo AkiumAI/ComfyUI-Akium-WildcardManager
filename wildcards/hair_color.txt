@@ -1,0 +1,5 @@
+# One entry per line, lines starting with # are ignored
+blonde hair
+black hair
+silver hair
+pink hair

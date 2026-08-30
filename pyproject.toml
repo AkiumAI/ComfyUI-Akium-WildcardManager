@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-akium-wildcardmanager"
+description = "Wildcards for ComfyUI with a sidebar manager: edit files, autocomplete tokens, and resolve __wildcards__ into prompts."
+version = "1.0.0"
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pyyaml"]
+
+[project.urls]
+Repository = "https://github.com/AkiumAI/ComfyUI-Akium-WildcardManager"
+
+[tool.comfy]
+PublisherId = "akiumai"
+DisplayName = "Akium Wildcard Manager"

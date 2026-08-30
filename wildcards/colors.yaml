@@ -1,0 +1,11 @@
+# Call with __colors.warm__, __colors.pastel.light__, or __colors__ for everything
+warm:
+  - red
+  - orange
+cool:
+  - blue
+  - teal
+pastel:
+  light:
+    - baby pink
+    - mint
