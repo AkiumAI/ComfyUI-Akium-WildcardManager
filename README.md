@@ -1,5 +1,8 @@
 # Akium Wildcard Manager (ComfyUI)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-support-ff5e5b?logo=ko-fi&logoColor=white)](https://ko-fi.com/akinak4)
+
 Wildcards for ComfyUI, with a manager panel to edit them without leaving the browser.
 Same engine as the Forge Neo extension: `__token__` in a prompt is replaced by a random
 entry from the matching file. No dynamic prompts syntax.
@@ -98,11 +101,18 @@ ComfyUI-Akium-WildcardManager/
 ├── api.py                          routes for the panel
 ├── wildcards_core.py               resolution engine (shared with the Forge version)
 ├── web/manager.js                  sidebar panel, autocomplete, node preview
+├── example_workflows/              drag one into ComfyUI to get started
 ├── extra_wildcard_paths.txt.example
 └── wildcards/                      your files
 ```
 
 `wildcards_core.py` has no ComfyUI imports beyond an optional `folder_paths` lookup, so
 it can be dropped into the Forge extension as-is and kept in sync.
+
+## Support
+
+This extension is free and MIT licensed. If it saves you time, you can buy me a
+coffee at [ko-fi.com/akinak4](https://ko-fi.com/akinak4). Bug reports and pull
+requests are just as welcome.
 
 by AkiumAI
