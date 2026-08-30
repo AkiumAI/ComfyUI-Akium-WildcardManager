@@ -1,0 +1,15 @@
+# Local wildcard folders configured per machine - contains local paths
+extra_wildcard_paths.txt
+ 
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+ 
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
